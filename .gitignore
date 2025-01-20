@@ -1,1 +1,4 @@
 *.ics
+*.env
+
+__pycache__/
