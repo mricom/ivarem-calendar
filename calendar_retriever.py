@@ -1,16 +1,18 @@
 import requests
 import json
 from datetime import datetime
+from settings import ZIP_CODE_ID, STREET_ID, HOUSE_NUMBER, STRAAT, GEEMENTE
+
 # Define the endpoint URL
 url = "https://diftar.ivarem.be/ophaalkalender/GetOphaaldata"
 
 # Define the request payload
 payload = {
-    "zipcodeId": "2800-12025",
-    "streetId": "https://data.vlaanderen.be/id/straatnaam-10767",
-    "housNr": "32",
-    "straat": "Leopoldstraat",
-    "gemeente": "MECHELEN",
+    "zipcodeId": ZIP_CODE_ID,
+    "streetId": STREET_ID,
+    "housNr": HOUSE_NUMBER,
+    "straat": STRAAT,
+    "gemeente": GEEMENTE,
     "fromDate": "2025-01-01T23:00:00.000Z",
     "untilDate": "2025-12-31T23:00:00.000Z"
 }
