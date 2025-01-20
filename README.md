@@ -16,22 +16,11 @@ This project generates an `.ics` file containing the garbage collection schedule
 
 Clone this repository to your local machine:
 
-```bash
-git clone <repository-url>
-cd <repository-directory>
-```
 
 2. **Set Up Environment Variables**
 
-Create a .env file in the root directory with the following structure:
+Create a .env file in the root directory following the structure in the *.env.template* file.
 
-```plaintext
-API_TOKEN=<your-api-token>
-ADDRESS=<specific-address>
-```
-
-Replace <your-api-token> with the token required for accessing the API.
-Replace <specific-address> with the address for which you want to fetch the garbage collection schedule.
 
 3. **Install Dependencies**
 
